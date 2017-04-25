@@ -1,6 +1,6 @@
 # npmtest-fcm-node
 
-#### test coverage for  [fcm-node (v1.2.0)](https://github.com/jlcvp/fcm-node)  [![npm package](https://img.shields.io/npm/v/npmtest-fcm-node.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fcm-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fcm-node.svg)](https://travis-ci.org/npmtest/node-npmtest-fcm-node)
+#### basic test coverage for  [fcm-node (v1.2.0)](https://github.com/jlcvp/fcm-node)  [![npm package](https://img.shields.io/npm/v/npmtest-fcm-node.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fcm-node) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fcm-node.svg)](https://travis-ci.org/npmtest/node-npmtest-fcm-node)
 
 #### A Node.JS simple interface to Google's Firebase Cloud Messaging (FCM). Supports both android and iOS, including topic messages, and parallel calls.
 Aditionally it also keeps the callback behavior for the new firebase messaging service.
@@ -11,7 +11,7 @@ Aditionally it also keeps the callback behavior for the new firebase messaging s
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-fcm-node/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-fcm-node/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-fcm-node/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-fcm-node/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fcm-node/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fcm-node/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-fcm-node/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-fcm-node/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fcm-node/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fcm-node/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-fcm-node/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-fcm-node/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@ Aditionally it also keeps the callback behavior for the new firebase messaging s
         "test": "mocha"
     },
     "tonicExampleFilename": "example.js",
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
